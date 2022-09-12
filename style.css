@@ -48,6 +48,10 @@ input{
     background-color:#aaa;
     font-size: 18px;
 }
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+}
 .cx-btns{
     margin-top:20px;
     display: flex;
